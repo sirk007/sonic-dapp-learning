@@ -1,0 +1,15 @@
+Purpose: Helper functions and configs
+
+- Format.js
+export function shortenAddress(addr){
+    return '{addr.slice(0, 6)}...${addr.slice(-4)'};
+}
+
+- chains.js
+export const networks = {
+    polygonMumbai: {
+        chainId: "0x13881",
+        name: "Polygon Mumbai Testnet",
+        rpc: "https://rpc-mumbai.matic.today",
+    },
+};

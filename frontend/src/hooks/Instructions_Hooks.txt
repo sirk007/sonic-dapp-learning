@@ -1,0 +1,7 @@
+Purpose: Manage reusable logic + state
+
+- useWallet.js
+
+Stores wallet address, balance, network in state
+Provides connect/disconnect methods
+Central place for wallet-related logic so multiple components can share it.

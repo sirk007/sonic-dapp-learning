@@ -1,0 +1,17 @@
+Purpose: Abstract all data fetching logic
+
+web3Service.js (direct blockchain reads/writes via ether.js)
+
+- GetBalance(address)
+- getTokenBalance(address, tokenAddress)
+- readContractData(contract, method, args)
+
+apiService.js (Calls backend or external REST API's)
+
+- getTokenPrice(symbol)
+- getHistoricalPrices(token, days)
+
+This seperation means:
+
+- If later you switch from ether.js to wagmi or from REST to GraphQL, 
+the UI won't break - only the service layer changes.

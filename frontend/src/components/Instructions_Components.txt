@@ -1,0 +1,10 @@
+Purpose: Small, reusable UI pieces.
+
+- WalletConnectButton.jsx
+Handles MetaMask connection requests
+Calls useWallet() to get/set wallet state
+
+- BalanceDisplay.jsx
+Takes wallet address as prop
+Fetches on-chain balance from web3Service.js
+Optionally also gets fiat price from apiService.js

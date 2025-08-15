@@ -1,0 +1,8 @@
+Purpose: Full 'screens' of your app
+
+- Home.jsx could:
+
+Show the connect button if no wallet connected
+Show the balance display if wallet connected
+later: show more web 2.5 features (token-gated content, NFT's, etc.)
+
